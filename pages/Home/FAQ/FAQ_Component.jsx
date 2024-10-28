@@ -187,7 +187,7 @@ const FAQ = () => {
         <div className=''>
           <button className='border px-3 p-2 rounded-lg'>
           <a href="mailto:info@resumeintellect.com" className="text-slate-800  font-semibold text-sm hover:underline flex items-center">
-          info@resumeintellect.com
+          info@Procraft.com
             <svg xmlns="http://www.w3.org/2000/svg" className="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
@@ -275,7 +275,7 @@ const FAQ = () => {
             {successMessage && <p className="text-green-500 mb-2">{successMessage}</p>}
             <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+              className="bg-purple-500 text-white px-4 py-2 rounded-lg"
             >
               Send
             </button>

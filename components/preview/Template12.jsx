@@ -49,7 +49,7 @@ const Template12 = () => {
           />
           <div className="flex-grow">
             <h1 className="text-2xl text-gray-800" style={{ color: headerColor }}>{resumeData.name}</h1>
-            <h2 className="text-xl text-blue-600 font-semibold">{resumeData.position}</h2>
+            <h2 className="text-xl text-purple-600 font-semibold">{resumeData.position}</h2>
           </div>
           <div className="text-right">
             <ContactInfo
@@ -66,7 +66,7 @@ const Template12 = () => {
         </div>
 
         <div className="mb-6">
-          <h3 className="text-xl text-blue-600 border-b-2 border-blue-600 pb-1 mb-4" style={{ color: headerColor }}>Work Experience</h3>
+          <h3 className="text-xl text-purple-600 border-b-2 border-purple-600 pb-1 mb-4" style={{ color: headerColor }}>Work Experience</h3>
           <div className="mb-4">
             {resumeData.workExperience.length > 0 && (
               <Droppable droppableId="work-experience" type="WORK_EXPERIENCE">
@@ -255,14 +255,14 @@ const Template12 = () => {
         </div>
 
         <div className="mb-6">
-          <h3 className="text-xl text-blue-600 border-b-2 border-blue-600 pb-1 mb-4" style={{ color: headerColor }}>Snapshot</h3>
+          <h3 className="text-xl text-purple-600 border-b-2 border-purple-600 pb-1 mb-4" style={{ color: headerColor }}>Snapshot</h3>
           {resumeData.summary}
           {/* Add more snapshot paragraphs as needed */}
         </div>
 
         <div className="mb-6">
-          <h3 className="text-xl text-blue-600 border-b-2 border-blue-600 pb-1 mb-4" style={{ color: headerColor }}>Technical Skills</h3>
-          <div className="bg-blue-600 text-white text-center py-2 rounded-md mb-2 text-sm font-semibold">
+          <h3 className="text-xl text-purple-600 border-b-2 border-purple-600 pb-1 mb-4" style={{ color: headerColor }}>Technical Skills</h3>
+          <div className="bg-purple-600 text-white text-center py-2 rounded-md mb-2 text-sm font-semibold">
             <Droppable droppableId="skills" type="SKILLS">
               {(provided) => (
                 <div {...provided.droppableProps} ref={provided.innerRef}>
@@ -295,7 +295,7 @@ const Template12 = () => {
         </div>
 
         <div className="mb-6">
-          <h3 className="text-xl text-blue-600 border-b-2 border-blue-600 pb-1 mb-4" style={{ color: headerColor }}>Certificates</h3>
+          <h3 className="text-xl text-purple-600 border-b-2 border-purple-600 pb-1 mb-4" style={{ color: headerColor }}>Certificates</h3>
           <div className="mb-2">
             <Certification className="text-lg text-gray-800 font-semibold"
               title="Certifications "
@@ -306,7 +306,7 @@ const Template12 = () => {
         </div>
 
         <div>
-          <h3 className="text-xl text-blue-600 border-b-2 border-blue-600 pb-1 mb-4" style={{ color: headerColor }}>Skills</h3>
+          <h3 className="text-xl text-purple-600 border-b-2 border-purple-600 pb-1 mb-4" style={{ color: headerColor }}>Skills</h3>
           <div className="flex flex-wrap">
             <div className="w-1/2 mb-2">
               <Language title="Languages" languages={resumeData.languages} />

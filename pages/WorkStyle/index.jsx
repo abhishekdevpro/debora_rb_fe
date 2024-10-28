@@ -79,7 +79,7 @@ const WorkStyle = () => {
               key={option}
               onClick={() => setSelectedBox(option)}
               className={`  rounded-xl text-center cursor-pointer h-36 border-black font-semibold  text-white border border-t-8  ${
-                selectedBox === option ? "border bg-blue-800 border-blue-800 border-t-8" : "bg-gray-700 border  border-gray-700 border-t-8 "
+                selectedBox === option ? "border bg-purple-800 border-purple-800 border-t-8" : "bg-gray-700 border  border-gray-700 border-t-8 "
               }`}
             >
              <p className="font-serif ">{option}</p>
@@ -92,7 +92,7 @@ const WorkStyle = () => {
 
       <div className="flex px-60 my-20 justify-between text-center">
         <Link href="/Background">
-          <button className="border-2 rounded-full p-2 px-10 text-lg font-bold border-blue-800 text-blue-800">
+          <button className="border-2 rounded-full p-2 px-10 text-lg font-bold border-purple-800 text-purple-800">
             Back
           </button>
         </Link>

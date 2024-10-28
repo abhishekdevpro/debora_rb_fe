@@ -65,13 +65,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <Image src={logo} alt="logo" className="h-10 w-40" />
+              <Image src={logo} alt="logo" className="h-10 w-60" />
             </Link>
           </div>
           <div className="hidden md:flex justify-center items-center space-x-4">
             <Link href="/navbarcontent" className="text-white px-3 py-2 rounded-md text-lg font-semibold">AI Resume Builder</Link>
-            <Link href="https://blog.resumeintellect.com/" className="text-white px-3 py-2 rounded-md text-lg font-semibold">Resources</Link>
-            <Link href="https://blog.resumeintellect.com/" className="text-white px-3 py-2 rounded-md text-lg font-semibold">About Us</Link>
+            <Link href="/" className="text-white px-3 py-2 rounded-md text-lg font-semibold">Resources</Link>
+            <Link href="/" className="text-white px-3 py-2 rounded-md text-lg font-semibold">About Us</Link>
             <Link href="/adminlogin" className="text-white px-3 py-2 rounded-md text-lg font-semibold">
               <span className="mr-2">🛡️</span>
               <span>Admin</span>

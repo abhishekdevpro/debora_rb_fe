@@ -104,7 +104,7 @@ const Index = () => {
 
       
     </div></>
-      <button onClick={handleRedirect} className="mt-4 bg-blue-900 text-white px-4 py-2 rounded">
+      <button onClick={handleRedirect} className="mt-4 bg-purple-900 text-white px-4 py-2 rounded">
         Go to AI Builder
       </button>
     </>

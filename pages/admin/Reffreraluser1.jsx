@@ -28,7 +28,7 @@ function Reffreraluser1() {
         ) : (
           <table className="min-w-full bg-dark text-black rounded-md text-center">
             <thead>
-              <tr className='bg-violet-300'>
+              <tr className='bg-pink-300'>
                 
                 <th className="py-2 px-4">Name</th>
                 <th className="py-2 px-4">Email</th>

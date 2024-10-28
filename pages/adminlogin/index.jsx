@@ -57,7 +57,7 @@ function AdminLogin() {
     <><Navbar/>
       <div className="flex justify-center items-center h-screen w-full">
         <ToastContainer/>
-        <div className="p-8 rounded-xl shadow-lg shadow-slate-700 w-full max-w-lg bg-gray-600">
+        <div className="p-8 rounded-xl shadow-lg shadow-red-700 w-full max-w-lg bg-purple-900">
           <div className="flex justify-center mb-6">
             <Image src={logo} className=" " alt="Logo" />
           </div>

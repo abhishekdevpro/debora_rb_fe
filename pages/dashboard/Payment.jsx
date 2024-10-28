@@ -68,17 +68,17 @@ function Payment() {
             <tr>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 <div className="text-center mt-4">
-                  <p className="text-lg font-bold text-violet-900 m">Free</p>
-                  <button className='bg-red-200 text-blue-900 p-2 px-6 rounded-lg m-4  disabled:'>Your Plan</button>
+                  <p className="text-lg font-bold text-pink-900 m">Free</p>
+                  <button className='bg-red-200 text-purple-900 p-2 px-6 rounded-lg m-4  disabled:'>Your Plan</button>
                 </div>
               </th>
               <th className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600  tracking-wider">
                 <div className="text-center">
                   <p className="text-lg font-bold ">AI resume writer</p>
-                  <span className=" text-violet-900 font-bold text-lg"> $49</span> <span className=" text-violet-900 ">/One Time Purchase</span><br/>
+                  <span className=" text-pink-900 font-bold text-lg"> $49</span> <span className=" text-pink-900 ">/One Time Purchase</span><br/>
                 <Link href="/dashboard/ai-resume-builder">
                 <button
-                    className='bg-blue-900 text-white p-2 rounded-lg m-2 mt-3'
+                    className='bg-purple-900 text-white p-2 rounded-lg m-2 mt-3'
                     
                   >
                     Choose This Plan
@@ -91,7 +91,7 @@ function Payment() {
                 <div className="text-center">
                   <p className="text-lg font-bold">Expert human writer</p>
                   
-                  <span className=" text-violet-900 font-bold text-lg"> $269</span> <span className=" text-violet-900 ">/Resume </span><br/>
+                  <span className=" text-pink-900 font-bold text-lg"> $269</span> <span className=" text-pink-900 ">/Resume </span><br/>
                   <button
                    className='bg-green-700 text-white p-2 px-5 rounded-lg m-4 disabled:'
                    onClick={handleChoosePlan3} 
@@ -105,7 +105,7 @@ function Payment() {
                 <div className="text-center">
                   <p className="text-lg font-bold">French English Combo</p>
                   
-                  <span className=" text-violet-900 font-bold text-lg"> $369</span> <span className=" text-violet-900 ">/Resume </span><br/>
+                  <span className=" text-pink-900 font-bold text-lg"> $369</span> <span className=" text-pink-900 ">/Resume </span><br/>
                   <button
                    className='bg-yellow-500 text-white p-2 px-5 rounded-lg m-4 disabled:'
                    onClick={handleChoosePlan4} 

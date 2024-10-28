@@ -28,11 +28,11 @@
 // //       <p className="text-gray-600 mb-5">Just review, edit, and update it with new information</p>
 // //       <div className="flex space-x-4 my-10">
 // //         <div
-// //           className={`border ${selectedCard === 'upload' ? 'border-blue-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center w- shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
+// //           className={`border ${selectedCard === 'upload' ? 'border-purple-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center w- shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
 // //           onClick={() => handleCardSelect('upload')}
 // //         >
 // //           <div className="mb-4">
-// //             <svg className="mx-auto h-12 w-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+// //             <svg className="mx-auto h-12 w-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 // //               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v16h16V4m-2 0v16m-4-8H4M4 8h16" />
 // //             </svg>
 // //           </div>
@@ -41,11 +41,11 @@
 // //         </div>
 
 // //         <div
-// //           className={`border ${selectedCard === 'start' ? 'border-blue-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center  shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
+// //           className={`border ${selectedCard === 'start' ? 'border-purple-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center  shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
 // //           onClick={() => handleCardSelect('start')}
 // //         >
 // //           <div className="mb-4">
-// //             <svg className="mx-auto h-12 w-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+// //             <svg className="mx-auto h-12 w-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 // //               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
 // //             </svg>
 // //           </div>
@@ -54,7 +54,7 @@
 // //         </div>
 // //       </div>
 // //       <div className="flex justify-between my-8 w-full px-40 mb-28">
-// //         <button className="px-16 py-1 border-2 bg-white text-lg border-blue-800 text-blue-700 rounded-3xl hover:bg-gray-300">Back</button>
+// //         <button className="px-16 py-1 border-2 bg-white text-lg border-purple-800 text-purple-700 rounded-3xl hover:bg-gray-300">Back</button>
 // //         <button className="px-16 py-2 bg-yellow-400 text-lg rounded-3xl hover:bg-yellow-500" onClick={handleNext}>Next</button>
 // //       </div>
 // //     </div>
@@ -94,11 +94,11 @@
 //       <p className="text-gray-600 mb-5">Just review, edit, and update it with new information</p>
 //       <div className="flex space-x-4 my-10">
 //         <div
-//           className={`border ${selectedCard === 'upload' ? 'border-blue-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center w- shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
+//           className={`border ${selectedCard === 'upload' ? 'border-purple-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center w- shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
 //           onClick={() => handleCardSelect('upload')}
 //         >
 //           <div className="mb-4">
-//             <svg className="mx-auto h-12 w-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+//             <svg className="mx-auto h-12 w-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 //               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v16h16V4m-2 0v16m-4-8H4M4 8h16" />
 //             </svg>
 //           </div>
@@ -107,11 +107,11 @@
 //         </div>
 
 //         <div
-//           className={`border ${selectedCard === 'start' ? 'border-blue-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center  shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
+//           className={`border ${selectedCard === 'start' ? 'border-purple-500' : 'border-gray-300'} bg-white rounded-lg p-6 h-60 text-center  shadow-lg hover:shadow-xl transition-shadow cursor-pointer`}
 //           onClick={() => handleCardSelect('start')}
 //         >
 //           <div className="mb-4">
-//             <svg className="mx-auto h-12 w-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+//             <svg className="mx-auto h-12 w-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 //               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
 //             </svg>
 //           </div>

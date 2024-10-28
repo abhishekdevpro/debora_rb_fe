@@ -40,7 +40,7 @@ function Home_first() {
             <Slider {...settings}>
                 {images.map((image, index) => (
                     <div key={index}>
-                        <img 
+                        <Image 
                             src={image} 
                           alt="logo"
                             className=" md:h-auto md:w-80 transition-transform transform hover:scale-105" 
@@ -60,7 +60,7 @@ function Home_first() {
                             </div>
                             <div className='flex flex-wrap gap-4 justify-center md:justify-start'>
                                 <Link href="/dashboard">
-                                    <button className='px-6 py-2 text-lg rounded-full font-bold bg-blue-700 text-white hover:shadow-2xl hover:shadow-slate-500'>
+                                    <button className='px-6 py-2 text-lg rounded-full font-bold bg-purple-700 text-white hover:shadow-2xl hover:shadow-slate-500'>
                                         Free to join or Sign Up!
                                     </button>
                                 </Link>

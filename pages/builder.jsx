@@ -179,8 +179,8 @@ export default function Builder({ onClose }) {
   };
   const getLinkClassName = (path) => {
     return router.pathname === path
-      ? "flex items-center p-2 bg-violet-900 border-b-2 rounded font-semibold text-white"
-      : "flex items-center p-2 hover:bg-violet-900  border-b-2 rounded font-semibold  ";
+      ? "flex items-center p-2 bg-pink-900 border-b-2 rounded font-semibold text-white"
+      : "flex items-center p-2 hover:bg-pink-900  border-b-2 rounded font-semibold  ";
   };
 
   const handleFinish = async () => {
@@ -288,7 +288,7 @@ export default function Builder({ onClose }) {
       {/* Toggle button for smaller screens */}
       <button
         onClick={toggleSidebar}
-        className="md:hidden p-2 text-white bg-blue-900 fixed top-4 left-4 z-50 rounded"
+        className="md:hidden p-2 text-white bg-purple-900 fixed top-4 left-4 z-50 rounded"
       >
         ☰
       </button>
@@ -303,7 +303,7 @@ export default function Builder({ onClose }) {
           <li>
             <Link
               href=""
-              className="flex items-center p-2 bg-blue-900 border-b-2 border-black font-semibold text-white"
+              className="flex items-center p-2 bg-purple-900 border-b-2 border-black font-semibold text-white"
               onClick={() => {
                 onClose();
                 toggleSidebar();
@@ -437,7 +437,7 @@ export default function Builder({ onClose }) {
           <li>
             <Link
               href="/"
-              className="flex items-center p-2 hover:bg-violet-900 border-b-2 rounded font-semibold"
+              className="flex items-center p-2 hover:bg-pink-900 border-b-2 rounded font-semibold"
               onClick={() => {
                 handleLogout();
                 toggleSidebar();
@@ -455,7 +455,7 @@ export default function Builder({ onClose }) {
               {/* <button
                 type="button"
                 onClick={toggleSidebar}
-                className="p-2 bg-blue-900 text-white rounded-lg"
+                className="p-2 bg-purple-900 text-white rounded-lg"
               >
                 {isSidebarOpen ? "☰" : "☰"}
               </button> */}
@@ -463,7 +463,7 @@ export default function Builder({ onClose }) {
                 type="button"
                 onClick={handlePrevious}
                 disabled={currentSection === 0}
-                className="rounded-lg border-2 bg-blue-950  w-full lg:w-40 text-white px-10 py-1"
+                className="rounded-lg border-2 bg-purple-950  w-full lg:w-40 text-white px-10 py-1"
               >
                 Previous
               </button>
@@ -472,7 +472,7 @@ export default function Builder({ onClose }) {
                 <select
                   value={selectedFont}
                   onChange={handleFontChange}
-                  className="rounded-lg border-2 border-blue-800 px-8 p- font-bold text-blue-800 lg:block hidden"
+                  className="rounded-lg border-2 border-purple-800 px-8 p- font-bold text-purple-800 lg:block hidden"
                 >
                   <option value="Ubuntu">Ubuntu</option>
                   <option value="Calibri">Calibri</option>
@@ -505,7 +505,7 @@ export default function Builder({ onClose }) {
                     {sections.map((section, index) => (
                       <li
                         key={index}
-                        className={`p-2 cursor-pointer ${currentSection === index ? "rounded-3xl border-y-2 border-blue-800 font-bold bg-blue-950 text-white" : "border-2 bg-white border-blue-800 rounded-3xl text-blue-800"}`}
+                        className={`p-2 cursor-pointer ${currentSection === index ? "rounded-3xl border-y-2 border-purple-800 font-bold bg-purple-950 text-white" : "border-2 bg-white border-purple-800 rounded-3xl text-purple-800"}`}
                         onClick={() => handleSectionClick(index)}
                       >
                         {section.label}
@@ -536,7 +536,7 @@ export default function Builder({ onClose }) {
                 <select
                   value={selectedFont}
                   onChange={handleFontChange}
-                  className="rounded-lg border-2 border-blue-800 lg:px-8 p-2 m-2 font-bold bg-white text-blue-800"
+                  className="rounded-lg border-2 border-purple-800 lg:px-8 p-2 m-2 font-bold bg-white text-purple-800"
                 >
                   <option value="Ubuntu">Ubuntu</option>
                   <option value="Calibri">Calibri</option>
@@ -552,13 +552,13 @@ export default function Builder({ onClose }) {
           type="button"
           onClick={handleFinish}
          // disabled={isFinished} // Optional, disable if already finished
-          className="bg-blue-950 text-white px-5 py-2 rounded-lg"
+          className="bg-purple-950 text-white px-5 py-2 rounded-lg"
         >
           Save
         </button>
               <button
                 type="button"
-                className="rounded-lg px-10 lg:ms-2 font-bold bg-blue-950 text-white p-1"
+                className="rounded-lg px-10 lg:ms-2 font-bold bg-purple-950 text-white p-1"
                 onClick={downloadAsPDF}
               >
                 Pay & Download

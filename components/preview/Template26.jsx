@@ -40,7 +40,7 @@ const Template26 = () => {
     return (
         <div className="max-w-3xl mx-auto p-5 bg-white shadow-md mb-5">
           <div className="mb-8 pt-2.5">    
-              <h1 className="text-6xl text-black font-bold mb-2 text-blue-600	" style={{ color: headerColor }}>{resumeData.name}</h1>
+              <h1 className="text-6xl text-black font-bold mb-2 text-purple-600	" style={{ color: headerColor }}>{resumeData.name}</h1>
               <h2 className="text-4xl text-black tracking-wide uppercase font-light mb-4" style={{ color: headerColor }}>{resumeData.position}</h2>
           </div>
           <div className="mb-8">
@@ -57,13 +57,13 @@ const Template26 = () => {
                 />
           </div>
           <div className="mb-5">
-              <h2 className="text-xl font-bold mb-4 text-blue-600 border-y-2 border-blue-600 p-2" style={{ color: headerColor }}>ABOUT ME</h2>
+              <h2 className="text-xl font-bold mb-4 text-purple-600 border-y-2 border-purple-600 p-2" style={{ color: headerColor }}>ABOUT ME</h2>
               <p class="text-black font-light">
                 {resumeData.summary}
               </p>
           </div>
           <div className="mb-8">
-            <h2 className="text-xl font-bold text-blue-600 mb-2 border-y-2 border-blue-600 p-2" style={{ color: headerColor }}>SKILLS</h2>
+            <h2 className="text-xl font-bold text-purple-600 mb-2 border-y-2 border-purple-600 p-2" style={{ color: headerColor }}>SKILLS</h2>
             <Droppable droppableId="skills" type="SKILLS">
                       {(provided) => (
                         <div {...provided.droppableProps} ref={provided.innerRef}>
@@ -93,7 +93,7 @@ const Template26 = () => {
                     </Droppable>
           </div>
           <div class="mb-5">
-            <h2 className="text-xl font-bold mb-4 text-blue-600 border-y-2 border-blue-600 p-2" style={{ color: headerColor }}>EXPERIENCE</h2>
+            <h2 className="text-xl font-bold mb-4 text-purple-600 border-y-2 border-purple-600 p-2" style={{ color: headerColor }}>EXPERIENCE</h2>
             <div>
               <h3 className="text-xl text-black font-semibold pb-2 mb-4" style={{ color: headerColor }}>Projects</h3>
               {resumeData.workExperience.length > 0 && (
@@ -282,7 +282,7 @@ const Template26 = () => {
             </div>
           </div>
           <div className="mb-8 ">
-            <h2 className="text-xl text-blue-600 font-bold mb-2 border-y-2 border-blue-600 p-2" style={{ color: headerColor }}>EDUCATION</h2>
+            <h2 className="text-xl text-purple-600 font-bold mb-2 border-y-2 border-purple-600 p-2" style={{ color: headerColor }}>EDUCATION</h2>
             <div className="mb-4">
             <ul className="list-none p-0">
               {resumeData.education.length > 0 && (
@@ -306,7 +306,7 @@ const Template26 = () => {
             
           </div>
           <div className="mb-8">
-            <h2 className="text-xl font-bold text-blue-600 border-y-2 border-blue-600 p-2" style={{ color: headerColor }}>LANGUAGE</h2>
+            <h2 className="text-xl font-bold text-purple-600 border-y-2 border-purple-600 p-2" style={{ color: headerColor }}>LANGUAGE</h2>
             <div className="flex text-black font-light justify-start mb-4 font-bold">
             <Language  languages={resumeData.languages} />
             </div>

@@ -147,9 +147,9 @@ const ProfilePage = () => {
 
    <>
    <Navbar/>
-    <div className="bg-indigo-900 p-4">
+    <div className="bg-purple-700 p-4">
       <div className="max-w-4xl mx-auto">
-        <div className="rounded-lg shadow-lg p-6 bg-indigo-800 flex flex-col md:flex-row justify-between items-center md:h-44">
+        <div className="rounded-lg shadow-lg p-6 bg-pink-900 flex flex-col md:flex-row justify-between items-center md:h-44">
           <div className="space-y-4 mb-6 md:mb-0 md:mr-6 md:pr-6 w-full">
             <div className="flex flex-col md:flex-row md:items-center md:space-x-4">
               <img
@@ -203,7 +203,7 @@ const ProfilePage = () => {
             </div>
             <Link href="/dashboard/ai-resume-builder">
               <button
-                className="bg-blue-500 text-white px-1 py-2 rounded-lg hover:bg-blue-600 w-full md:w-auto"
+                className="bg-purple-500 text-white px-1 py-2 rounded-lg hover:bg-purple-600 w-full md:w-auto"
           >
             Upload Resume
           </button>
@@ -218,7 +218,7 @@ const ProfilePage = () => {
           <div className="flex mt-4">
             <button
               onClick={copyToClipboard}
-              className="bg-blue-500 text-white py-1 px-4 rounded mr-2"
+              className="bg-purple-500 text-white py-1 px-4 rounded mr-2"
             >
               Copy
             </button>

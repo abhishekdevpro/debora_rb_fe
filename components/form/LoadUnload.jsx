@@ -138,9 +138,9 @@ const LoadUnload = () => {
             <p className="text-gray-600 mb-5">Just review, edit, and update it with new information</p>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-5">
-              <div className="h-80 md:h-auto p-6 md:p-10 border-2 rounded-lg shadow-lg shadow-blue-100 w-full md:w-1/2">
+              <div className="h-80 md:h-auto p-6 md:p-10 border-2 rounded-lg shadow-lg shadow-purple-100 w-full md:w-1/2">
                 <div className="mb-4">
-                  <svg className="mx-auto h-8 w-8 md:h-12 md:w-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="mx-auto h-8 w-8 md:h-12 md:w-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v16h16V4m-2 0v16m-4-8H4M4 8h16" />
                   </svg>
                 </div>
@@ -149,14 +149,14 @@ const LoadUnload = () => {
                   We’ll give you expert guidance to fill out your info and enhance your resume, from start to finish
                 </p>
 
-                <label className="p-2 text-white bg-gray-500 rounded cursor-pointer hover:bg-blue-600 transition">
+                <label className="p-2 text-white bg-gray-500 rounded cursor-pointer hover:bg-purple-600 transition">
                   <FaCloudUploadAlt className="inline-block mr-2" />
                   <span>Select Resume (PDF)</span>
                   <input type="file" className="hidden" onChange={handleFileChange} accept=".pdf" />
                 </label>
 
                 <button
-                  className={`p-2 mt-4 w-full text-white bg-blue-800 rounded ${loading ? "opacity-50 cursor-not-allowed" : "hover:bg-green-600 transition"}`}
+                  className={`p-2 mt-4 w-full text-white bg-purple-800 rounded ${loading ? "opacity-50 cursor-not-allowed" : "hover:bg-green-600 transition"}`}
                   onClick={handleUpload}
                   disabled={loading}
                 >
@@ -164,9 +164,9 @@ const LoadUnload = () => {
                 </button>
               </div>
 
-              <div className="h-80 md:h-auto p-6 md:p-10 border-2 rounded-lg shadow-lg shadow-blue-100 w-full md:w-1/2">
+              <div className="h-80 md:h-auto p-6 md:p-10 border-2 rounded-lg shadow-lg shadow-purple-100 w-full md:w-1/2">
                 <div className="mb-4">
-                  <svg className="mx-auto h-8 w-8 md:h-12 md:w-12 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="mx-auto h-8 w-8 md:h-12 md:w-12 text-purple-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
                   </svg>
                 </div>

@@ -77,7 +77,7 @@ const Background = () => {
             <div
               key={skill}
               onClick={() => handleSkillSelect(skill)}
-              className={`p-3 border rounded-lg border-gray-400 text-gray-800 text-center cursor-pointer hover:bg-blue-900 hover:text-white ${
+              className={`p-3 border rounded-lg border-gray-400 text-gray-800 text-center cursor-pointer hover:bg-purple-900 hover:text-white ${
                 selectedSkills.length >= 3
                   ? "cursor-not-allowed opacity-50"
                   : ""
@@ -90,7 +90,7 @@ const Background = () => {
 
       <div className="flex px-60 my-20 justify-between text-center">
         <Link href="/Createletterpage">
-          <button className="border-2 rounded-full p-2 px-10 text-lg font-bold border-blue-800 text-blue-800">
+          <button className="border-2 rounded-full p-2 px-10 text-lg font-bold border-purple-800 text-purple-800">
             Back
           </button>
         </Link>

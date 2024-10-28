@@ -50,7 +50,7 @@ const MyResume1 = () => {
       <div className="overflow-x-auto">
         <table className="min-w-full bg-dark text-black rounded-md text-center">
           <thead>
-            <tr className='bg-violet-300'>
+            <tr className='bg-pink-300'>
               <th className="py-2 px-4">First Name</th>
               <th className="py-2 px-4">Last Name</th>
               <th className="py-2 px-4">Email</th>

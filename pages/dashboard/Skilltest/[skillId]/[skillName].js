@@ -133,7 +133,7 @@ const Testpaper = () => {
                 Please Wait..
               </div>
             </div>
-            <h2 className="text-violet-950">Hold On A Second! We are Processing your request...!</h2>
+            <h2 className="text-pink-950">Hold On A Second! We are Processing your request...!</h2>
             <p className="p-0 m-0" style={{ color: "red", fontWeight: "500" }}>
               Don’t Shut or Back Your Window!
             </p>
@@ -158,7 +158,7 @@ const Testpaper = () => {
               <h3>Wrong Answer: {results.wrong_answer}</h3>
               <h3 className="m-2">Percentage: {Math.floor(results.Percentage)}%</h3>
               <button
-                className="p-2 bg-violet-950 rounded-md text-white hover:bg-violet-950 mt-4"
+                className="p-2 bg-pink-950 rounded-md text-white hover:bg-pink-950 mt-4"
                 onClick={handleBack}
               >
                 Back
@@ -188,8 +188,8 @@ const Testpaper = () => {
                 </ul>
                 <div className="flex justify-between">
                   <button
-                    className={`p-2 bg-violet-950 rounded-md text-white hover:bg-violet-950 mt-4 ${
-                      currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
+                    className={`p-2 bg-pink-950 rounded-md text-white hover:bg-pink-950 mt-4 ${
+                      currentQuestionIndex === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-purple-700'
                     }`}
                     onClick={handlePrevious}
                     disabled={currentQuestionIndex === 0}
@@ -205,7 +205,7 @@ const Testpaper = () => {
                     </button>
                   ) : (
                     <button
-                      className="p-2 bg-violet-950 rounded-md text-white hover:bg-violet-950 mt-4"
+                      className="p-2 bg-pink-950 rounded-md text-white hover:bg-pink-950 mt-4"
                       onClick={handleNext}
                     >
                       ↪️ Next

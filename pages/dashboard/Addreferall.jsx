@@ -60,7 +60,7 @@ function Addreferall() {
                                                 value={name}
                                                 onChange={(e) => setName(e.target.value)}
                                                 required
-                                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-purple-500 focus:border-purple-500"
                                             />
                                         </div>
                                         <div>
@@ -71,7 +71,7 @@ function Addreferall() {
                                                 value={phone}
                                                 onChange={(e) => setPhone(e.target.value)}
                                                 required
-                                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-purple-500 focus:border-purple-500"
                                             />
                                         </div>
                                         <div>
@@ -82,7 +82,7 @@ function Addreferall() {
                                                 value={email}
                                                 onChange={(e) => setEmail(e.target.value)}
                                                 required
-                                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                                                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-purple-500 focus:border-purple-500"
                                             />
                                         </div>
                                         <div>
@@ -92,11 +92,11 @@ function Addreferall() {
                                                 value={remark}
                                                 onChange={(e) => setRemark(e.target.value)}
                                                 required
-                                                className="mt-1 block w-full border border-gray-300 h-32 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                                                className="mt-1 block w-full border border-gray-300 h-32 rounded-md shadow-sm p-2 focus:ring-purple-500 focus:border-purple-500"
                                             />
                                         </div>
                                         <div className="text-center">
-                                        <button type="submit" className="w-full bg-white text-blue-800 border-blue-800 border-2 px-6 py-3 rounded-lg font-bold " disabled={loading}>
+                                        <button type="submit" className="w-full bg-white text-purple-800 border-purple-800 border-2 px-6 py-3 rounded-lg font-bold " disabled={loading}>
                                             {loading ? "Submitting..." : "Submit"}
                                         </button>
                                         </div>

@@ -110,7 +110,7 @@ router.push("/dashboard/page");
             <div className="text-center py-2">
               <button
                 type="button"
-                className="text-blue-500 hover:text-yellow-500"
+                className="text-purple-500 hover:text-yellow-500"
                 onClick={() => setThirdstepOpen(true)}
               >
                 New User? Create Account

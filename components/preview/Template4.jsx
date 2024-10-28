@@ -39,7 +39,7 @@ const Template4 = () => {
   return (
     <div className="flex flex-col md:flex-row max-w-6xl mx-auto my-5 bg-white shadow-lg">
      <div className="max-w-4xl mx-auto bg-white p-8 border border-gray-200 rounded-lg shadow-lg">
-      <h1 className="text-2xl font-bold text-blue-500 mb-3" style={{ color: headerColor }}>{resumeData.name}</h1>
+      <h1 className="text-2xl font-bold text-purple-500 mb-3" style={{ color: headerColor }}>{resumeData.name}</h1>
       <h2 className="text-xl text-gray-800 mb-5">{resumeData.position}</h2>
       <p className="mb-5 text-xs">{resumeData.summary}</p>
 

@@ -45,7 +45,7 @@ const Template22 = () => {
                   <img src="img/profile_one.png"></img>
                 </div>
                 <div class="p-5">
-                    <h1 className="text-4xl font-bold mb-2 text-blue-900" style={{ color: headerColor }}>{resumeData.name}</h1>
+                    <h1 className="text-4xl font-bold mb-2 text-purple-900" style={{ color: headerColor }}>{resumeData.name}</h1>
                     <h2 className="text-2xl font-semibold mb-2 text-black" style={{ color: headerColor }}>{resumeData.position}</h2>	
 
                     <div class="text-left text-black">
@@ -67,19 +67,19 @@ const Template22 = () => {
             </div>
             <div className="p-5">
               <div class="flex">
-                  <h2 className="text-xl  text-blue-900	 font-bold mb-2" style={{ color: headerColor }}>ABOUT ME</h2>
+                  <h2 className="text-xl  text-purple-900	 font-bold mb-2" style={{ color: headerColor }}>ABOUT ME</h2>
                   
               </div>
-              <div class="border-solid border-b-2 border-blue-900 mb-2 mt-2"></div>
+              <div class="border-solid border-b-2 border-purple-900 mb-2 mt-2"></div>
               <p class="text-sm text-black	 tracking-wide	">
               {resumeData.summary}
               </p>
             </div>
             <div className="p-5">
-                  <h2 className="text-xl text-blue-900 font-bold mb-4" style={{ color: headerColor }}>EXPERIENCE</h2>
+                  <h2 className="text-xl text-purple-900 font-bold mb-4" style={{ color: headerColor }}>EXPERIENCE</h2>
                   
                   <div>
-                    <h3 className="text-xl text-blue-900 font-semibold border-b-2 border-blue-900 pb-2 mb-4" style={{ color: headerColor }}>Projects</h3>
+                    <h3 className="text-xl text-purple-900 font-semibold border-b-2 border-purple-900 pb-2 mb-4" style={{ color: headerColor }}>Projects</h3>
                     {resumeData.workExperience.length > 0 && (
                             <Droppable droppableId="work-experience" type="WORK_EXPERIENCE">
                               {(provided) => (
@@ -97,7 +97,7 @@ const Template22 = () => {
                                           {...provided.draggableProps}
                                           {...provided.dragHandleProps}
                                           className={`mb-5 hover:scale-105 transition-transform duration-300 mb-1 ${snapshot.isDragging &&
-                                            "outline-dashed outline-2 outline-blue-900 bg-white"
+                                            "outline-dashed outline-2 outline-purple-900 bg-white"
                                             }`}
                                         >
                                           <div className="justify-between space-y-1 flex text-black">
@@ -267,8 +267,8 @@ const Template22 = () => {
                 
                 </div>
                 <div className="p-5">
-                  <h2 className="text-xl text-blue-900 mb-5 font-bold" style={{ color: headerColor }}>EDUCATION</h2>
-                  <div class="border-solid border-b-2 border-blue-900 mb-5"></div>
+                  <h2 className="text-xl text-purple-900 mb-5 font-bold" style={{ color: headerColor }}>EDUCATION</h2>
+                  <div class="border-solid border-b-2 border-purple-900 mb-5"></div>
                   <div className="mb-4 ">
                   <ul className="list-none p-0">
                     {resumeData.education.length > 0 && (
@@ -291,8 +291,8 @@ const Template22 = () => {
                   </div>
                 </div>
                 <div className="p-5">
-                    <h2 className="text-xl capitalize text-blue-900 font-bold" style={{ color: headerColor }}>SKILLS</h2>
-                    <div class="border-solid  border-b-2 border-blue-900 mb-2 mt-2"></div>
+                    <h2 className="text-xl capitalize text-purple-900 font-bold" style={{ color: headerColor }}>SKILLS</h2>
+                    <div class="border-solid  border-b-2 border-purple-900 mb-2 mt-2"></div>
                     <Droppable droppableId="skills" type="SKILLS">
                               {(provided) => (
                                 <div {...provided.droppableProps} ref={provided.innerRef}>
@@ -322,14 +322,14 @@ const Template22 = () => {
                             </Droppable>
                     </div>
                     <div className="p-5">
-                      <h2 className="text-2xl font-bold text-blue-900 border-blue-900" style={{ color: headerColor }}>LANGUAGE</h2>
+                      <h2 className="text-2xl font-bold text-purple-900 border-purple-900" style={{ color: headerColor }}>LANGUAGE</h2>
                       <div className="text-black mb-4 font-bold ">
                       <Language  languages={resumeData.languages} />
                       </div>
                     </div>
                     <div class=" text-left p-5">
-                      <h2 class="text-2xl font-bold uppercase text-blue-900 mb-5">Reference</h2>
-                      <div class="border-solid border-b-2 border-blue-900 mb-5"></div>	
+                      <h2 class="text-2xl font-bold uppercase text-purple-900 mb-5">Reference</h2>
+                      <div class="border-solid border-b-2 border-purple-900 mb-5"></div>	
                       <div class="flex space-between">
                         <div class="mb-5">
                           <p class="text-xl capitalize text-black font-bold mb-5">Estelle Darcy</p>	

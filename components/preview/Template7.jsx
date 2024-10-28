@@ -43,13 +43,13 @@ const Template7 = () => {
     <section className="flex justify-between">
       <div className="w-8/12">
         <header className=" border-b-2 border-gray-200 pb-5 mb-5">
-          <h1 className="text-4xl text-blue-700" style={{ color: headerColor }}>{resumeData.name}</h1>
+          <h1 className="text-4xl text-purple-700" style={{ color: headerColor }}>{resumeData.name}</h1>
           <h2 className="text-2xl text-gray-800 mb-2">{resumeData.position}</h2>
           <p className="text-base text-gray-600">
             {resumeData.summary}
           </p>
         </header>
-        <h3 className="text-xl text-blue-700 mb-2" style={{ color: headerColor }}>WORK EXPERIENCE</h3>
+        <h3 className="text-xl text-purple-700 mb-2" style={{ color: headerColor }}>WORK EXPERIENCE</h3>
 
 
         <div className="col-span-2 space-y-2">
@@ -240,7 +240,7 @@ const Template7 = () => {
 
       <aside className="w-4/12 bg-[#d4d4d8] rounded p-2" style={{ backgroundColor: backgroundColorss }}>
         <div className="mb-5">
-          <h3 className="text-lg text-blue-700 mb-2" style={{ color: headerColor }}>CONTACT</h3>
+          <h3 className="text-lg text-purple-700 mb-2" style={{ color: headerColor }}>CONTACT</h3>
           <ContactInfo
             mainclass=" gap-1 mb-1 contact"
             linkclass="inline-flex items-center gap-1"
@@ -254,7 +254,7 @@ const Template7 = () => {
         </div>
 
         <div className="mb-5">
-          <h3 className="text-lg text-blue-700 mb-2" style={{ color: headerColor }}>SKILLS</h3>
+          <h3 className="text-lg text-purple-700 mb-2" style={{ color: headerColor }}>SKILLS</h3>
           <Droppable droppableId="skills" type="SKILLS">
             {(provided) => (
               <div {...provided.droppableProps} ref={provided.innerRef}>
@@ -287,7 +287,7 @@ const Template7 = () => {
         </div>
 
         <div className="mb-5">
-          <h3 className="text-lg text-blue-700 mb-2" style={{ color: headerColor }}>EDUCATION</h3>
+          <h3 className="text-lg text-purple-700 mb-2" style={{ color: headerColor }}>EDUCATION</h3>
           {resumeData.education.length > 0 && (
             <div className="mb-1">
               {resumeData.education.map((item, index) => (

@@ -101,7 +101,7 @@ const TemplateSelector = ({ selectedTemplate, setSelectedTemplate }) => {
     <div>
       <button
         onClick={openModal}
-        className="rounded-lg border-2 m-2 border-blue-800 px-5 py-2 font-bold bg-white text-blue-800 "
+        className="rounded-lg border-2 m-2 border-purple-800 px-5 py-2 font-bold bg-white text-purple-800 "
       >
         Select Template
       </button>

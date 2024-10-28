@@ -84,7 +84,7 @@ function Home_second() {
     return ( <>
     
     <div className='  '>
-      <section className="bg-gray-800 dark:bg-blue-200">
+      <section className="bg-gray-800 dark:bg-purple-200">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold bg-gray-800 rounded-2xl text-white border p-3">Choose a Plan, Which is right for you?</h2>
@@ -203,7 +203,7 @@ function Home_second() {
                 <label className="block text-white mb-2">👨🏻‍💼Name</label>
                 <input
                   type="text"
-                  className="w-full px-3 py-2 border border-gray-300 bg-blue- rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 bg-purple- rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
@@ -213,7 +213,7 @@ function Home_second() {
                 <label className="block text-white mb-2">📧 Email</label>
                 <input
                   type="email"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -223,7 +223,7 @@ function Home_second() {
                 <label className="block text-white mb-2">☎️Phone</label>
                 <input
                   type="tel"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required
@@ -233,7 +233,7 @@ function Home_second() {
                 <label className="block text-white mb-2">💵Amount $</label>
                 <input
                   type="number"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={"269"}
                   readOnly
                 />
@@ -248,7 +248,7 @@ function Home_second() {
                 </button>
                 <button
                   type="submit"
-                  className="bg-blue-950 text-white py-2 px-4 rounded hover:bg-blue-700"
+                  className="bg-purple-950 text-white py-2 px-4 rounded hover:bg-purple-700"
                 >
                   Submit
                 </button>
@@ -268,7 +268,7 @@ function Home_second() {
                 <label className="block text-white mb-2">👨🏻‍💼Name</label>
                 <input
                   type="text"
-                  className="w-full px-3 py-2 border border-gray-300 bg-blue- rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 bg-purple- rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={name1}
                   onChange={(e) => setName1(e.target.value)}
                   required
@@ -278,7 +278,7 @@ function Home_second() {
                 <label className="block text-white mb-2">📧 Email</label>
                 <input
                   type="email"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={email1}
                   onChange={(e) => setEmail1(e.target.value)}
                   required
@@ -288,7 +288,7 @@ function Home_second() {
                 <label className="block text-white mb-2">☎️Phone</label>
                 <input
                   type="tel"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={phone1}
                   onChange={(e) => setPhone1(e.target.value)}
                   required
@@ -298,7 +298,7 @@ function Home_second() {
                 <label className="block text-white mb-2">💵Amount $</label>
                 <input
                   type="number"
-                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                  className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600"
                   value={"349"}
                   readOnly
                 />
@@ -313,7 +313,7 @@ function Home_second() {
                 </button>
                 <button
                   type="submit"
-                  className="bg-blue-950 text-white py-2 px-4 rounded hover:bg-blue-700"
+                  className="bg-purple-950 text-white py-2 px-4 rounded hover:bg-purple-700"
                 >
                   Submit
                 </button>
