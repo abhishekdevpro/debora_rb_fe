@@ -61,7 +61,7 @@ function Home_first() {
                     <div className='px-3 py-3 w-full md:w-[500px]'>
                         <div className='flex flex-col gap-4'>
                             <div className='font-extrabold text-3xl md:text-5xl font-sans text-center md:text-left'>
-                                AI Enabled, Resume Intellect Builder
+                                AI Enabled, ProCraft Builder
                             </div>
                             <div className='text-lg font-medium text-slate-700 text-center md:text-left'>
                                 Resume Score, Enhanced Resume & much more. Now Apply for a Job with confidence with our all in one solution under one roof.
