@@ -5,7 +5,7 @@
 @layer base {
     
     body {
-        @apply font-[sans-serif];
+        @apply font-[Ubuntu];
     }
 
     ::-webkit-scrollbar {
